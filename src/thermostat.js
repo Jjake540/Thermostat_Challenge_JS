@@ -17,7 +17,7 @@ class Thermostat {
   }
   
   up() {
-    if (this.isMinimumTempreature()) {
+    if (this.isMaximumTempreature()) {
       return;
     }
     this.temperature += 1;
