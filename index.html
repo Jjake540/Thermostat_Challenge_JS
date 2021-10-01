@@ -5,33 +5,29 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <section>
-      <h1 id="temperature"></h1>
+    <section1>
       <section>
+        <br><br>
         <h1>Current temperature: <span id="current-temperature">20</span></h1>
+        <br>
         <form id="select-city">
           <input id="current-city" type="text" placeholder="Enter a city"></input>
-          <input type="submit"></input>
+          <input class="glow-on-hover" type="submit"></input>
         </form>
+        <br>
       </section>
       <p>
-        <button id="temperature-up">+</button>
-        <button id="temperature-down">-</button>
-        <button id="temperature-reset">reset</button>
+        <button id="temperature-up" class="glow-on-hover">+</button>
+        <button id="temperature-down" class="glow-on-hover">-</button>
+        <button id="temperature-reset" class="glow-on-hover">reset</button>
         power saving mode is <span id="power-saving-status">on</span>
-        <button id="powersaving-on">PSM on</button>
-        <button id="powersaving-off">PSM off</button>
+        <button id="powersaving-on" class="glow-on-hover">PSM on</button>
+        <button id="powersaving-off" class="glow-on-hover">PSM off</button>
+        <br>
+        <h1 id="temperature"></h1>
       </p>
-    </section>
+    </section1>
     <script src="src/thermostat.js"></script>
     <script src="interface.js"></script>
   </body>
 </html>
-
-<!-- <section>
-  <h1>Current temperature: <span id="current-temperature">20</span></h1>
-  <form id="select-city">
-    <input id="current-city" type="text" placeholder="Enter a city"></input>
-    <input type="submit"></input>
-  </form>
-</section> -->
